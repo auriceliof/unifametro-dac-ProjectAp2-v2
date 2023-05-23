@@ -138,10 +138,10 @@
 					<p:inputText id="id" value="#{incidenteBean.incidente.id}" disabled="true"/>
 					
 					<p:outputLabel for="nomeVitima" value="Nome da Vitima: "/>
-					<p:inputTextarea id="nomeVitima" value="#{incidenteBean.vitima.nomeVitima}" disabled="true"/>				
+					<p:inputTextarea id="nomeVitima" value="#{incidenteBean.incidente.vitima.nomeVitima}" disabled="true"/>				
 					
 					<p:outputLabel for="nomeAgressor" value="Suporte Agressor: "/>
-					<p:inputTextarea id="nomeAgressor" value="#{incidenteBean.agressor.nomeAgressor}" disabled="true"/>				
+					<p:inputTextarea id="nomeAgressor" value="#{incidenteBean.incidente.agressor.nomeAgressor}" disabled="true"/>				
 					
 					<p:outputLabel for="violacao" value="Violação de Direito: "/>
 					<p:inputTextarea id="violacao" value="#{incidenteBean.incidente.violacaoVitima}" disabled="true"/>
@@ -162,10 +162,10 @@
 					<p:inputText id="id" value="#{incidenteBean.incidente.id}" disabled="true" style="width: 10%"/>
 					
 					<p:outputLabel for="nomeVitima" value="Nome da Vitima: "/>
-					<p:inputText id="nomeVitima" value="#{incidenteBean.vitima.nomeVitima}" style="width: 100%"/>				
+					<p:inputText id="nomeVitima" value="#{incidenteBean.incidente.vitima.nomeVitima}" style="width: 100%"/>				
 					
 					<p:outputLabel for="nomeAgressor" value="Suporte Agressor: "/>
-					<p:inputText id="nomeAgressor" value="#{incidenteBean.agressor.nomeAgressor}" style="width: 100%"/>
+					<p:inputText id="nomeAgressor" value="#{incidenteBean.incidente.agressor.nomeAgressor}" style="width: 100%"/>
 					
 					<p:outputLabel for="violacaoVitima" value="Violação de Direito: "/>
 					<p:selectOneRadio id="violacaoVitima" value="#{incidenteBean.incidente.violacaoVitima}" layout="grid" columns="3" styleClass="grid-radio" style="margin: 10px 0;">
